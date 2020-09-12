@@ -3,8 +3,6 @@ package com.gateway.app.service;
 import org.apache.pulsar.client.api.Producer;
 import org.apache.pulsar.client.api.PulsarClientException;
 import org.apache.pulsar.client.api.Schema;
-import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Service;
 
 //@ConfigurationProperties(prefix = "pulsar-config")
